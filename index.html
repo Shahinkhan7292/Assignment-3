@@ -18,15 +18,16 @@
         }
         .c{
             position: absolute;
-            right: 30px;
+            right: 20px;
             top: 15px;
         }
         .d{
             font-size: 20px;
-            background-color: blue;
+            background-color: rgb(34, 130, 168);
+            border: 5px;
         }
         div button:hover{
-            background-color: chocolate;
+            background-color: rgb(184, 140, 109);
         }
         .e{
             position: absolute;
@@ -56,10 +57,10 @@
         a{
             text-decoration: none;
         }
-        .g{
+        .g a{
             color: green;
         }
-        .g p:hover{
+        .g p a:hover{
             color: chocolate;
         }
         #entry-title{
@@ -71,6 +72,72 @@
         .h{
             font-size: 25px;
         }
+        .pera{
+            border: solid whitesmoke;
+            border-radius: initial;
+            width: 850px;
+            margin-left: 65px;
+            padding-left: 10px;
+            background-color: whitesmoke;
+            position: absolute;
+            top: 650px;
+        }
+        .pera p{
+            font-size: 20px;
+        }
+        .pera p a{
+            color: pink;
+            font-size: 25px;
+            
+        }
+        .pera p a:hover{
+            color: green;
+        }
+        .commit{
+            padding-left: 50px;
+            padding-top: 100px;
+            background-color: white;
+            position: absolute;
+            top: 1300px;
+        }
+        .commit2 textarea{
+            background-color: whitesmoke;
+        }
+        .input input{
+            margin-right:30px;
+            padding: 10px;
+            background-color: whitesmoke;
+        }
+        form textarea:focus{
+            background-color: green;
+            color: red;
+            font-size: 25px;
+        }
+        .input input:focus{
+            background-color: green;
+            color: red;
+            font-size: 25px;
+        }
+        .submit button{
+            background-color: rgb(34, 130, 168);
+            color: white;
+            font-size: 20px;
+        }
+        .footer{
+            background-color: green;
+            width: 100%;
+            position: absolute;
+            top: 1800px;
+        }
+        .footer p{
+            padding: 16px;
+            color: red;
+            font-size: 20px;
+        }
+        .footer p a{
+            color: rgb(170, 44, 92);
+            font-size: 20px;
+        }
         </style>
 </head>
 <body>
@@ -81,7 +148,7 @@
                 <h1>BANGLADESH</h1>
             </div>
             <div class="c">
-                <button class="d">LogIn</button>
+                <button class="d"><a href="#">Log In</a></button>
             </div>
             <div class="e">
                 <select class="f">
@@ -110,7 +177,7 @@
         </div>
         <div id="entry-title">
             <div class="g">
-                <p>CAREER</p>
+                <p><a href="#">CAREER</a></p>
             </div>
             <div class="h">
                 <h1>Business Opportunities In Bangladesh</h1>
@@ -121,5 +188,67 @@
         </div>
     </section>
     </header>
+    <section>
+        <div class="pera">
+            <br><br><br><br>
+            <div class="pera1">
+                <p>Last Updated on September 2, 2021 by <a href="#">Shahin Khan</a></p>
+            </div>
+            <br>
+            <div class="pera2">
+                <h1>
+                    <strong>Bangladesh has a population of over 160 Million and it is the 8th most populous country in the world. Bangladesh is located in the southern-eastern part of Asia and its economy is very progressive. Moreover, Bangladesh has a strong and large consumer group, low production cost, and last but not least a huge manpower to utilize. All these key factors have led international companies to focus on Bangladesh.</strong>
+                </h1>
+            </div>
+            <div class="pera3">
+                <p>Bangladesh is the birthplace of microfinance banking and the Government of Bangladesh is doing all it can to encourage foreign investors. There are several export processing zones available in Bangladesh. So if you are interested to come to Bangladesh to open a business then it is guaranteed that you are coming to a safer business environment compared to many other countries of the world.</p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, et eius. Inventore expedita, placeat repellendus sint eligendi natus libero fugit, cumque voluptatum illo sapiente, nulla reiciendis repellat qui doloribus tempora?
+                Ipsam minus recusandae iure odit quisquam possimus enim veritatis laborum aut? Dolorem tempora, magnam iure explicabo ullam repellendus deleniti, quidem nam odit sed excepturi eveniet. Tenetur, omnis labore! Perspiciatis, libero.
+                Incidunt aperiam rem natus, ea nulla iure sit doloremque at architecto quo adipisci? Mollitia doloremque laboriosam deserunt incidunt voluptatem eum repudiandae accusantium cumque, doloribus repellendus, nisi dolore assumenda reprehenderit iusto.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="commit">
+            <div class="commit1">
+                <h3>
+                    <strong>Leave a Reply</strong>
+                </h3>
+                <p>Your email address will not be published. Required fields are marked *</p>
+            </div>
+            <div class="commit2">
+                <form action="">
+                    <textarea placeholder="Comment*" cols="90" rows="10"></textarea>
+                </form>
+            </div>
+            <div>
+                <p class="input">
+                    <input type="text" placeholder="Name*"><input type="Gmail" placeholder="Gmail*"><input type="ulr" placeholder="Website link*">
+                </p>
+            </div>
+            <div class="submit">
+                <button>Post Comment</button>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section>
+            <div class="footer">
+                <div class="footer1">
+                    <p>
+                        <b>© 2021 Bangladesh</b>
+                    </p>
+                </div>
+                <br><br>
+                <div class="footer2">
+                    <p>
+                        <a href="">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+    </section>
 </body>
 </html>
